@@ -1,0 +1,109 @@
+.input-class {
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row-content {
+    background: #253439;
+    color: black
+}
+
+/* .nav-item-class a{
+    color: black;
+    margin-left: 10px;
+/* } */
+
+.main-content {
+    background: #253439;
+    padding: 20px;
+    color: black
+}
+
+.upper-part {
+    background: #899597;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px
+}
+
+.main-row-content {
+    justify-content: center;
+}
+
+.main-row-class {
+    width: 80%;
+}
+
+.row-content {
+    padding: 7px;
+    margin: 20px;
+    background-color: #253439;
+    box-shadow: 0px 4px 1px rgba(104, 52, 4, 0.87);
+    border-radius: 20px;
+}
+
+.row-content img {
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.row-content a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-size: 20;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+
+.editor {
+    margin-right: 10em;
+    justify-content: center
+  }
+  
+.ck-editor__editable_inline {
+    min-height: 500px;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #899597;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.close{
+    width:40px;
+    border-radius: 150px;
+    float: right;
+}
+  
+button{
+    background-color: #2c6bf1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

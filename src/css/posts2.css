@@ -1,0 +1,195 @@
+.input-class {
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row-content {
+    background: #253439;
+}
+
+/* .nav-item-class a{
+    color: black;
+    margin-left: 10px;
+} */
+
+.main-content {
+    background: #253439;
+    padding: 20px;
+}
+
+.upper-part {
+    background: #899597;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px
+}
+
+.main-img {
+    display : flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.main-row-content {
+    justify-content: center;
+}
+
+.main-row-class {
+    width: 80%;
+}
+
+.row-content {
+    padding: 7px;
+    margin: 20px;
+    background-color: #253439;
+    box-shadow: 0px 4px 1px rgba(104, 52, 4, 0.87);
+    border-radius: 20px;
+}
+
+.row-content img {
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.row-content a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.p-2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.top-part {
+    display: flex;
+    background-color: #FAF2F2;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.top-part h6 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.top-part img {
+    height: 30px;
+    width: 30px;
+}
+
+.text-box {
+    border-width : 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-description {
+    width: 80%;
+    margin : auto;
+    text-align: center;
+}
+
+.middle-part {
+    background-color:#899597;
+    /* height: 463px; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    align-self: center;
+}
+
+.last-part {
+    background-color: #fffdfd;
+    margin-bottom: 51px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    padding: 5px;
+}
+
+/* community div styling */
+
+.featurePosts-div {
+    background-color: #899597;
+    padding: 10px;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.featured {
+    color: white;
+    text-align: center;
+    background-color: #253439;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.featurePosts a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.featurePosts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #253439;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.editor {
+    margin-right: 10em;
+    justify-content: center
+  }
+  
+.ck-editor__editable_inline {
+    min-height: 500px;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #899597;
+    font-weight: bold;
+    color: rgb(252, 252, 252);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    color: black;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(24, 7, 7);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

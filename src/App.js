@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+// import Navbar from './Navbar';
+import Home from './Home';
+import Test from './test';
+import LogIn from './LogIn';
+import SignUp from './SignUp';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import MainPage from './MainPage';
+import HomePage from './HomePage';
+import Posts from './Posts';
+import Forums from './Forums';
+import Create from './createpost';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  return ( 
+    <Router>
+      <div className="App">
+        <div className="content">
+          <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/test' component={Test}/>
+            <Route exact path='/login' component={LogIn}/>
+            <Route exact path='/signup' component={SignUp}/>
+            <Route exact path='/mainpage' component={MainPage}/>
+            <Route exact path='/homepage' component={HomePage}/>
+            <Route exact path='/posts' component={Posts}/>
+            <Route exact path='/myprofile' component={Forums}/>
+            <Route exact path='/createpost' component={Create}/>
+          </Switch>
+        </div>
+      </div>
+    </Router>
+   );
 }
-
+ 
 export default App;
