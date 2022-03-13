@@ -83,6 +83,7 @@
 .left-top-part span{
     text-align: left;
     margin-right: 85px;
+    color: white
 }
 
 .left-bottom-part {
@@ -90,10 +91,12 @@
 }
 .title-para {
     margin-top: 20px;
+    color:white
 }
 
 .user-text {
     margin-top: 5px;
+    color: white
 }
 
 .user-icons {
@@ -199,4 +202,59 @@
     border: none;
     border-radius: 7px;
     list-style-position: outside;
+}
+
+
+.top-part {
+    display: flex;
+    background-color: #FAF2F2;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.top-part h6 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.top-part img {
+    height: 30px;
+    width: 30px;
+}
+
+.text-box {
+    border-width : 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-description {
+    width: 80%;
+    margin : auto;
+    text-align: justify
+}
+
+.middle-part {
+    background-color:#899597;
+    /* height: 463px; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    align-self: center;
+}
+
+.last-part {
+    background-color: #fffdfd;
+    margin-bottom: 51px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    padding: 5px;
 }

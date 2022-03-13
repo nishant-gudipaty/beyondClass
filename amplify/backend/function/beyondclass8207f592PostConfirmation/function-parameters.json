@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "beyondclass8207f592",
+  "functionName": "beyondclass8207f592PostConfirmation",
+  "resourceName": "beyondclass8207f592PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\Program Files\\nodejs\\node_modules\\@aws-amplify\\cli\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "beyondclass8207f592PostConfirmation",
+  "skipEdit": true,
+  "GROUP": "Students, Professors",
+  "enableCors": false
+}

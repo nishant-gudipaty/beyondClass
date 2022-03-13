@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-beyondclass-dev-154816-authRole",
+      "UnauthRoleArn": "arn:aws:iam::908352632222:role/amplify-beyondclass-dev-154816-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::908352632222:role/amplify-beyondclass-dev-154816-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-beyondclass-dev-154816-deployment",
+      "UnauthRoleName": "amplify-beyondclass-dev-154816-unauthRole",
+      "StackName": "amplify-beyondclass-dev-154816",
+      "StackId": "arn:aws:cloudformation:us-east-1:908352632222:stack/amplify-beyondclass-dev-154816/bef8a4d0-a1ed-11ec-b76f-12f8bc0d6961",
+      "AmplifyAppId": "d3s2g9eim2wcck",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-beyondclass-dev-154816-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "beyondclass8207f592": {}
+      },
+      "function": {
+        "beyondclass8207f592PostConfirmation": {
+          "GROUP": "Students, Professors",
+          "deploymentBucketName": "amplify-beyondclass-dev-154816-deployment",
+          "s3Key": "amplify-builds/beyondclass8207f592PostConfirmation-4e46334f36446f476b51-build.zip"
+        }
+      }
+    }
+  }
+}

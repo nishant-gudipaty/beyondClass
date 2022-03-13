@@ -13,10 +13,10 @@ class FeaturedPosts extends Component {
             <div className="featurePosts-div">
                 <div className="featured">Featured Posts</div>
                 <div className="featurePosts">
-                    <Link>Community 1</Link>
-                    <Link>Community 2</Link>
-                    <Link>Community 3</Link>
-                    <Link>Community 4</Link>
+                    <Link>E-Cell IIT Madras</Link>
+                    <Link>PDC Club</Link>
+                    <Link>Placements </Link>
+                    <Link>Internships</Link>
                 </div>
             </div>
         )

@@ -66,6 +66,11 @@
     align-items: center;
 }
 
+.p-3 {
+    /* justify-content: center; */
+    align-items: right;
+}
+
 .top-part {
     display: flex;
     background-color: #FAF2F2;
@@ -99,7 +104,7 @@
 .img-description {
     width: 80%;
     margin : auto;
-    text-align: center;
+    text-align: justify
 }
 
 .middle-part {
